@@ -12,25 +12,25 @@
                                 <div class="row">
                                     <div class="col-12 colsm-6">
                                         <label>Articulo</label>
-                                        <input class="form-control" id="articulo" name="articulo" type="text"
+                                        <input class="form-control" id="Articulo" name="Articulo" type="text"
                                         value="<?php echo $datos['Articulo']; ?>" autofocus require />
                             </div>
 
                                     <div class="col-12 colsm-6">
                                     <label>Descripción</label>
-                                    <input class="form-control" id="descripción" nambre="Descripción" type="text"
-                                    value="<?php echo $datos['Descripción']; ?>"autofocus require />
+                                    <input class="form-control" id="Descripción" name="Descripción" type="text"
+                                    value="<?php echo $datos['Descripción']; ?>"/>
 
                                     <div class="col-12 colsm-6">
                                     <label>Uma</label>
-                                    <input class="form-control" id="uma" nambre="uma" type="text"
+                                    <input class="form-control" id="Uma" name="Uma" type="text"
                                     value="<?php echo $datos['Uma']; ?>" autofocus require />
 
                                 </div>
 
                                 <div class="col-12 colsm-6">
                                     <label>Costo</label>
-                                    <input class="form-control" id="Costo" nambre="Costo" type="text"
+                                    <input class="form-control" id="Costo" name="Costo" type="text"
                                     value="<?php echo $datos['Costo']; ?>"autofocus require />
  
                                    

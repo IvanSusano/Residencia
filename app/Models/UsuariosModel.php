@@ -2,17 +2,17 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class MultasModel extends Model
+class UsuariosModel extends Model
 {
-    protected $table      = 'multas';
+    protected $table      = 'usuarios';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['Articulo', 'Descripción', 'Uma', 'Costo'];
+    protected $allowedFields = ['usuarios', 'password','id_rol','activo'];
 
-    protected $useTimestamps = true;
+    protected $useTimestamps = false;
     protected $createdField  = 'fecha_alta';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
